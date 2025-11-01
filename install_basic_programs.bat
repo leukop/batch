@@ -9,3 +9,4 @@ winget install Microsoft.Powershell --accept-source-agreements --accept-package-
 winget install GnuPG.Gpg4win --accept-source-agreements --accept-package-agreements --disable-interactivity
 winget install Obsidian.Obsidian --accept-source-agreements --accept-package-agreements --disable-interactivity
 winget install VideoLAN.VLC --accept-source-agreements --accept-package-agreements --disable-interactivity
+winget install TheDocumentFoundation.LibreOffice
