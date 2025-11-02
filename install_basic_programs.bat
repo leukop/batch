@@ -1,4 +1,4 @@
-:: Installs Office, 7zip, Chrome, Acrobat Reader, and Firefox
+:: Installs Office, 7zip, Chrome, Acrobat Reader, and Firefox. Veracrypt dont install yet via winget for ARM!
 
 winget install Microsoft.Office --accept-source-agreements --accept-package-agreements --disable-interactivity
 winget install Mozilla.Firefox --accept-source-agreements --accept-package-agreements --disable-interactivity
@@ -10,3 +10,4 @@ winget install GnuPG.Gpg4win --accept-source-agreements --accept-package-agreeme
 winget install Obsidian.Obsidian --accept-source-agreements --accept-package-agreements --disable-interactivity
 winget install VideoLAN.VLC --accept-source-agreements --accept-package-agreements --disable-interactivity
 winget install TheDocumentFoundation.LibreOffice
+winget install veracrypt --accept-source-agreements --accept-package-agreements --disable-interactivity
